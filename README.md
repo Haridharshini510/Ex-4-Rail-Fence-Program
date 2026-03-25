@@ -12,6 +12,7 @@ columns of the plain text.
 STEP-5: Read the characters row wise or column wise in the former order to get the cipher 
 text. 
 # PROGRAM: 
+```
 #include <stdio.h>  
 #include <string.h>  
 #include <stdlib.h>  
@@ -119,7 +120,8 @@ printf("Encrypted Message: %s\n", encrypted);
 decryptRailFence(encrypted, rails, decrypted);  
 printf("Decrypted Message: %s\n", decrypted);  
 return 0;  
-} 
+}
+```
 # OUTPUT: 
 <img width="890" height="366" alt="image" src="https://github.com/user-attachments/assets/c35776d9-4b90-4dae-854f-1725f61424fd" />
 
